@@ -1,0 +1,12 @@
+# Automatically handle line endings
+* text=auto
+
+# Force CRLF for batch files
+*.bat text eol=crlf
+
+# Treat images as binary
+*.jpg binary
+*.png binary
+
+# Custom merge driver for Markdown files
+*.md merge=union
