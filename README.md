@@ -17,7 +17,7 @@ ZestyZing is a comprehensive system designed for managing customers, inventory, 
 
 ## Technology Stack
 
-- **Backend**: Spring Boot, Java 8, Spring MVC, Spring Data JPA (Hibernate)
+- **Backend**: Spring Boot, Java 17, Spring MVC, Spring Data JPA (Hibernate)
 - **Frontend**: Thymeleaf, HTML, CSS, JavaScript
 - **Database**: MySQL
 - **IDE**: Eclipse
@@ -40,7 +40,7 @@ Before running this project, ensure you have the following installed:
 
 2. Navigate to the project directory:
     ```bash
-    cd FoodFrenzy
+    cd ZestyZing
     ```
 
 3. Configure MySQL Database:
