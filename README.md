@@ -5,6 +5,10 @@ ZestyZing is a comprehensive system designed for managing customers, inventory, 
 ## 📸 Project Preview
 
 Here is the preview of the project:
+images/preview/pgg.png
+images/preview/bg.png
+images/preview/pg.png
+images/preview/orderpg.png
 
 
 
