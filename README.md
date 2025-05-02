@@ -9,7 +9,7 @@ ZestyZing is a comprehensive system designed for managing customers, inventory, 
 Here is the preview of the project:
 
 ### 🔹 User Authentication Page
-![Login Page](images%20preview/pgg.png)
+![Login Page](https://github.com/purvathnere/ZestyZing/blob/main/pgg.PNG)
 
 ### 🔹 User Interface Design
 ![Background](images%20preview/bg.png)
