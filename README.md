@@ -7,16 +7,16 @@ ZestyZing is a comprehensive system designed for managing customers, inventory, 
 Here is the preview of the project:
 
 ### 🔹 User Authentication Page
-![Login Page](images/preview/pgg.png)
+![Login Page](images preview/pgg.png)
 
 ### 🔹 User Interface Design
-![Background](images/preview/bg.png)
+![Background](images preview/bg.png)
 
 ### 🔹 Product Page
-![Product Page](images/preview/pg.png)
+![Product Page](images preview/pg.png)
 
 ### 🔹 Order Page
-![Order Page](images/preview/orderpg.png)
+![Order Page](images preview/orderpg.png)
 
 
 
