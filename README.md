@@ -12,13 +12,13 @@ Here is the preview of the project:
 ![Login Page](https://github.com/purvathnere/ZestyZing/blob/main/pgg.PNG)
 
 ### 🔹 User Interface Design
-![Background](images%20preview/bg.png)
+![Background](https://github.com/purvathnere/ZestyZing/blob/main/bg.PNG)
 
 ### 🔹 Product Page
-![Product Page](images%20preview/pg.png)
+![Product Page](https://github.com/purvathnere/ZestyZing/blob/main/pg.PNG)
 
 ### 🔹 Order Page
-![Order Page](images%20preview/orderpg.png)
+![Order Page](https://github.com/purvathnere/ZestyZing/blob/main/orderbg.PNG)
 
 
 
