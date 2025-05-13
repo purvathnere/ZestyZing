@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Zesty Zing</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="" th:href="@{/css/Navigation.css}" />
+    <link rel="stylesheet" href="" th:href="@{/css/About.css}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css"> 
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); 
+        * {
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: 'Poppins', sans-serif;
+        } 
+
+        .contact {
+            position: relative; 
+            min-height: 100vh; 
+            padding: 50px 100px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: column; 
+            background: #111;
+        }
+
+        .contact .content h2 {
+            font-size: 3em; 
+            color: #ff6f61; 
+            font-weight: 500; 
+            text-align: center;
+        }
+
+        .contact .content p {
+            color: #fff; 
+            font-size: 1.1em; 
+            font-weight: 300; 
+            text-align: center;
+            margin-top: 20px;
+            max-width: 800px;
+        }
+
+        .container {
+            width: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 50px;    
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .container .contactInfo {
+            width: 40%; 
+            display: flex; 
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .container .contactInfo .box {
+            position: relative; 
+            padding: 20px 0; 
+            display: flex; 
+            cursor: pointer;
+            background: #222;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .container .contactInfo .box:hover {
+            background: #333;
+            transform: translateY(-5px);
+        }
+
+        .container .contactInfo .box .icon {
+            position: relative; 
+            min-width: 60px; 
+            height: 60px; 
+            background: #ff6f61; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .container .contactInfo .box .text {
+            display: flex; 
+            flex-direction: column; 
+            color: #fff; 
+            font-size: 1.1em; 
+        }
+
+        .container .contactInfo .box .text h3 {
+            font-weight: 500; 
+            color: #ff6f61;
+            margin-bottom: 5px;
+        }
+
+        .container .contactInfo .box .text p {
+            font-weight: 300;
+        }
+
+        .container .contactForm {
+            position: relative; 
+            width: 40%; 
+            background: #333;  
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .container .contactForm h2 {
+            font-size: 2em; 
+            color: #fff; 
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .container .contactForm .inputBox {
+            position: relative; 
+            width: 100%; 
+            margin-top: 20px;
+        }
+
+        .container .contactForm .inputBox input, 
+        .container .contactForm .inputBox textarea {
+            width: 100%; 
+            padding: 10px; 
+            font-size: 1.1em; 
+            margin: 10px 0; 
+            border: none; 
+            background: transparent; 
+            border-bottom: 2px solid #ff6f61; 
+            color: #fff; 
+            outline: none;
+        }
+
+        .container .contactForm .inputBox input[type="submit"] {
+            width: 100%; 
+            background: #ff6f61; 
+            color: #222; 
+            border: none; 
+            cursor: pointer; 
+            padding: 10px; 
+            font-size: 1.1em; 
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .container .contactForm .inputBox input[type="submit"]:hover {
+            background: #e14a3b;
+        }
+
+        .container .contactForm .inputBox span {
+            position: absolute; 
+            left: 0; 
+            pointer-events: none; 
+            padding: 5px 0; 
+            font-size: 1.1em; 
+            color: #fff; 
+            transition: 0.5s;
+        }
+
+        .container .contactForm .inputBox input:focus ~ span, 
+        .container .contactForm .inputBox textarea:focus ~span {
+            color: #ff6f61; 
+            font-size: 0.9em; 
+            transform: translateY(-24px);
+        }
+
+        .container .contactInfo .sci {
+            position: relative; 
+            display: flex; 
+            gap: 30px; 
+            margin: 20px 0;
+        }
+
+        .container .contactInfo .sci li {
+            list-style: none;
+        }
+
+        .container .contactInfo .sci li a {
+            color: #fff; 
+            font-size: 1.5em; 
+            transition: 0.25s;
+        }
+
+        .container .contactInfo .sci li a:hover {
+            color: #ff6f61; 
+            filter: drop-shadow(0 0 5px #ff6f61);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 991px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .container .contactInfo, .container .contactForm {
+                width: 100%;
+            }
+
+            .container .contactForm {
+                padding: 30px;
+            }
+
+            .container .contactForm form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav th:replace="~{Navigation::navbar()}"></nav>
+    <section class="contact"> 
+        <div class="content"> 
+            <h2>Get in Touch</h2>
+            <p>Zesty Zing is a cutting-edge web application designed to transform the food industry. With its user-friendly interface, it simplifies operations by efficiently managing customer data, inventory, and orders. This all-in-one solution supports smarter decision-making and offers seamless access from any device, boosting productivity in the fast-paced food business environment.</p>
+        </div> 
+        <div class="container"> 
+            <div class="contactInfo"> 
+                <div class="box"> 
+                    <div class="icon"><b></b><i class="fa-sharp fa-solid fa-location-dot"></i></div> 
+                    <div class="text"> 
+                        <h3>Address</h3> 
+                        <p>A-47 , Sector 92,<br>Bhopal,<br>462022</p>
+                    </div>
+                </div> 
+                <div class="box"> 
+                    <div class="icon"><b></b><i class="fa-solid fa-phone"></i></div> 
+                    <div class="text"> 
+                        <h3>Phone</h3> 
+                        <p>8085XXXXXX</p>
+                    </div>
+                </div> 
+                <div class="box"> 
+                    <div class="icon"><b></b><i class="fa-solid fa-envelope"></i></div> 
+                    <div class="text"> 
+                        <h3>Email</h3> 
+                        <p>purvaathnere2013@gmail.com</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="contactForm"> 
+                <form> 
+                    <h2>Send Message</h2> 
+                    <div class="inputBox"> 
+                        <input type="text" name="" required="required"> 
+                        <span>Full Name : </span>
+                    </div> 
+                    <div class="inputBox"> 
+                        <input type="text" name="" required="required"> 
+                        <span>Email : </span>
+                    </div> 
+                    <div class="inputBox"> 
+                        <textarea required="required"></textarea>
+                        <span>Type your message here ...</span>
+                    </div> 
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form> 
+            </div> 
+        </div> 
+    </section>
+</body>
+</html>
