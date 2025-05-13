@@ -1,0 +1,111 @@
+body {
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	color: #000; /* Dark text color for better contrast */
+	font-weight: bold; /* Make all text bold */
+}
+
+.LoginContainer {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 700px;
+}
+
+input {
+	display: block;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	color: #000; /* Dark text color */
+	font-size: 16px;
+	cursor: pointer;
+	width: 200px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+input:hover {
+	transition: 1.1s;
+	width: 300px;
+}
+
+.user {
+	width: 50%;
+	background-image: url('/Images/user_login_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000; /* Dark text color */
+	font-weight: bold; /* Bold text */
+}
+
+.admin {
+	width: 50%;
+	background-image: url('/Images/admin_login_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #000; /* Dark text color */
+	font-weight: bold; /* Bold text */
+}
+
+.user, .admin {
+	font-size: 20px;
+	font-family: sans-serif;
+	letter-spacing: 0.1px;
+	color: #000; /* Dark text color */
+}
+
+.content {
+	position: relative;
+	left: 250px;
+	top: 200px;
+}
+
+strong {
+	border: 1px rgb(0, 0, 0) solid;
+	padding: 5px;
+	background-color: rgb(128, 64, 64);
+	color: antiquewhite;
+	font-family: sans-serif;
+	border-radius: 3px;
+	font-weight: bold; /* Bold font for the strong element */
+}
+
+.loginButton {
+	position: relative;
+	left: 60px;
+	border: 1px solid green;
+	cursor: pointer;
+	color: #fff; /* White text on buttons */
+	font-weight: bold;
+	padding: 5px;
+	width: 80px;
+	background-color: green; /* Set button background color to green */
+}
+
+.loginButton:hover {
+	width: 110px;
+	border-radius: 5px;
+	color: antiquewhite;
+	background-color: darkgreen; /* Darker green on hover */
+	transition: 1s;
+}
+
+.admin h2, .user h2 {
+	margin-top: 5px;
+	color: #000; /* Dark color for headers */
+	font-weight: bold; /* Bold font for headers */
+}
+
+a {
+	color: green; /* Green color for the links */
+	font-weight: bold; /* Bold link text */
+}
+
