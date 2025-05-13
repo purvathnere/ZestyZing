@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FoodFrenzy
 FoodFrenzy is a comprehensive system designed for managing customers, inventory, and orders. It offers secure authentication, role-based access control, and database integration using MySQL. Built with Spring Boot and Thymeleaf, the application provides a seamless experience for admin and staff members.
 
@@ -166,4 +166,4 @@ src/
 
 
 Location : C:\Users\HP\Downloads\FoodFrenzy-master\FoodFrenzy-master: zestyzing
->>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
+
