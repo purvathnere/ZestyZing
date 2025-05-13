@@ -1,7 +1,35 @@
+<<<<<<< HEAD
 # FoodFrenzy
 FoodFrenzy is a comprehensive system designed for managing customers, inventory, and orders. It offers secure authentication, role-based access control, and database integration using MySQL. Built with Spring Boot and Thymeleaf, the application provides a seamless experience for admin and staff members.
 
 ![Screenshot 2024-10-02 123332](https://github.com/user-attachments/assets/1382d32f-3cbb-40c3-b6b5-9fc55cd5176f)
+=======
+
+# ZestyZing 
+ZestyZing is a comprehensive system designed for managing customers, inventory, and orders. It offers secure authentication, role-based access control, and database integration using MySQL. Built with Spring Boot and Thymeleaf, the application provides a seamless experience for admin and staff members .
+
+## 📸 Project Preview
+
+
+
+Here is the preview of the project:
+
+### 🔹 User Authentication Page
+![Login Page](https://github.com/purvathnere/ZestyZing/blob/main/pgg.PNG)
+
+### 🔹 User Interface Design
+![Background](https://github.com/purvathnere/ZestyZing/blob/main/bg.PNG)
+
+### 🔹 Product Page
+![Product Page](https://github.com/purvathnere/ZestyZing/blob/main/pg.PNG)
+
+### 🔹 Order Page
+![Order Page](https://github.com/purvathnere/ZestyZing/blob/main/orderbg.PNG)
+
+
+
+
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
 
 
 ## Features
@@ -16,37 +44,63 @@ FoodFrenzy is a comprehensive system designed for managing customers, inventory,
 
 ## Technology Stack
 
+<<<<<<< HEAD
 - **Backend**: Spring Boot, Java 8, Spring MVC, Spring Data JPA (Hibernate)
 - **Frontend**: Thymeleaf, HTML, CSS, JavaScript
 - **Database**: MySQL
 - **IDE**: Eclipse, Spring Tool Suite (STS)
+=======
+- **Backend**: Spring Boot, Java 17, Spring MVC, Spring Data JPA (Hibernate)
+- **Frontend**: Thymeleaf, HTML, CSS, JavaScript
+- **Database**: MySQL
+- **IDE**: Eclipse
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
 
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
 
+<<<<<<< HEAD
 - Java 8
 - MySQL
 - Maven
 - Eclipse or Spring Tool Suite (STS)
+=======
+- Java 17
+- MySQL
+- Maven
+- Eclipse 
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
 
 ## Setup and Installation
 
 1. Clone the repository:
     ```bash
+<<<<<<< HEAD
     git clone https://github.com/your-repository-url/FoodFrenzy.git
+=======
+    git clone https://github.com/your-repository-url/ZestyZing.git
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
     ```
 
 2. Navigate to the project directory:
     ```bash
+<<<<<<< HEAD
     cd FoodFrenzy
+=======
+    cd ZestyZing
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
     ```
 
 3. Configure MySQL Database:
     - Create a new MySQL database.
     - Update `application.properties` with your MySQL credentials:
       ```properties
+<<<<<<< HEAD
       spring.datasource.url=jdbc:mysql://localhost:3306/foodfrenzy
+=======
+      spring.datasource.url=jdbc:mysql://localhost:3306/zestyzing
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
       spring.datasource.username=root
       spring.datasource.password=root
       spring.jpa.hibernate.ddl-auto=update
@@ -59,6 +113,7 @@ Before running this project, ensure you have the following installed:
 
 5. Access the application:
     - Navigate to `http://localhost:8080` in your browser. 
+<<<<<<< HEAD
 ## Website Screenshot
 
 Here is a preview of the FoodFrenzy interface:
@@ -77,6 +132,11 @@ Here is a preview of the FoodFrenzy interface:
 ![Screenshot 2024-10-03 093133](https://github.com/user-attachments/assets/b1da1faa-7e71-49be-972a-432029a1e7c3) 
 ![Screenshot 2024-10-03 093424](https://github.com/user-attachments/assets/b0a9a1e2-6018-475a-95fc-d64980677ee7) 
 ![Screenshot 2024-10-03 093437](https://github.com/user-attachments/assets/b860f905-2c35-4af3-9df8-38cda70b4406)
+=======
+
+
+
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
 
 ## Project Structure
 
@@ -84,7 +144,11 @@ Here is a preview of the FoodFrenzy interface:
 src/
 ├── main/
 │   ├── java/
+<<<<<<< HEAD
 │   │   └── com.example.foodfrenzy/
+=======
+│   │   └── com.example.zestyzing/
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
 │   │       ├── controller/      # Contains all controllers
 │   │       ├── model/           # Contains entity classes
 │   │       ├── repository/      # Repository interfaces for database interaction
@@ -97,3 +161,9 @@ src/
 │       └── WEB-INF/
 │           └── views/           # Additional view files
 └── test/                        # Test cases for unit testing
+<<<<<<< HEAD
+=======
+
+
+Location : C:\Users\HP\Downloads\FoodFrenzy-master\FoodFrenzy-master: zestyzing
+>>>>>>> 6f51bb477b2d5ed840cfa8be548c3db3251373c4
